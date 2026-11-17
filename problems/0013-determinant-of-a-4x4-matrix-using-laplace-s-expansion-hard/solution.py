@@ -1,6 +1,6 @@
 import numpy as np
 def det3x3(matrix: list[list[int|float]]) -> float:
-    return np.linalg.det(matrix)
+    return round(np.linalg.det(matrix),10)
 
 def determinant_4x4(matrix: list[list[int|float]]) -> float:
     # Your recursive implementation here

@@ -1,35 +1,16 @@
-import numpy as np
-def medie(vectors: list[list[float]]) -> float:
-    return np.mean(vectors)
-def compute(a: list[float],b: list[float]) -> float:
-    x=0
-    for i in range(len(a)):
-        x+=a[i]*b[i]
-    x=x/(len(a)-1)
+import torch
 
+def calculate_covariance_matrix(vectors) -> torch.Tensor:
+    """
+    Calculate the covariance matrix for given feature vectors using PyTorch.
+    Input: 2D array-like of shape (n_features, n_observations).
+    Returns a tensor of shape (n_features, n_features).
+    """
+    v_t = torch.as_tensor(vectors, dtype=torch.float)
+    mean=torch.mean(v_t,dim=1,keepdim=True)
     
-    
-    return x
-def calculate_covariance_matrix(vectors: list[list[float]]) -> list[list[float]]:
-    # Your code here
-    n=np.shape(vectors)
-    
-    for i in range(n[0]):
-        mean=medie(vectors[i])
-        for j in range(n[1]):
-            vectors[i][j]-=mean
-    cov=[]
-    for i in range(n[0]):
-        l=[]
-        for j in range(n[0]):
-            l.append(compute(vectors[i],vectors[j]))
-        cov.append(l)
-    
-
-    
-
-
-
-        
-
-    return cov
+    v_t=v_t-mean
+    # Your implementation here
+    N=(1/(v_t.shape[1]-1))*v_t@v_t.T
+    return N
+    pass

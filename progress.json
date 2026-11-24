@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T15:58:11.287Z",
+  "generated_at": "2026-11-24T16:29:38.241Z",
   "items": {
     "problem:1": {
       "kind": "problem",
@@ -297,6 +297,19 @@
       "path": "problems/0044-leaky-relu-activation-function",
       "first_solved_at": "2026-11-24T15:58:06.604Z",
       "last_pushed_at": "2026-11-24T15:58:06.604Z",
+      "language": "python",
+      "lines": 7
+    },
+    "problem:36": {
+      "kind": "problem",
+      "id": "36",
+      "title": "Calculate Accuracy Score",
+      "difficulty": "easy",
+      "category": "Machine Learning",
+      "url": "https://www.deep-ml.com/problems/36",
+      "path": "problems/0036-calculate-accuracy-score",
+      "first_solved_at": "2026-11-24T16:29:33.100Z",
+      "last_pushed_at": "2026-11-24T16:29:33.100Z",
       "language": "python",
       "lines": 7
     }

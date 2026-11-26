@@ -86,7 +86,7 @@ def learn_decision_tree(examples: list[dict], attributes: list[str], target_attr
         if atribut!=p:
             fara.append(atribut)
 
-    for value in setp:
+    for value in sorted(setp):
         sublist=[]
         for example in examples:
             if value==example[p]:

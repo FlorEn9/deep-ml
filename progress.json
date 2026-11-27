@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T09:05:33.388Z",
+  "generated_at": "2026-11-27T09:16:15.257Z",
   "items": {
     "problem:1": {
       "kind": "problem",
@@ -384,6 +384,17 @@
       "path": "math/0012-inverse-and-rank",
       "first_solved_at": "2026-11-27T09:05:30.779Z",
       "last_pushed_at": "2026-11-27T09:05:30.779Z"
+    },
+    "math:14": {
+      "kind": "math",
+      "id": "14",
+      "title": "Orthogonality and Projections",
+      "difficulty": "medium",
+      "category": "Linear Algebra",
+      "url": "https://www.deep-ml.com/math-problems/14",
+      "path": "math/0014-orthogonality-and-projections",
+      "first_solved_at": "2026-11-27T09:16:12.675Z",
+      "last_pushed_at": "2026-11-27T09:16:12.675Z"
     }
   }
 }

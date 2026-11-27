@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**34** solved · 29 problems · 0 labs · 5 math
+**35** solved · 30 problems · 0 labs · 5 math
 
 ![Coverage](./coverage.svg)
 
@@ -16,6 +16,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Calculate Accuracy Score](https://www.deep-ml.com/problems/36) | easy | 2026-11-24 | [solution](problems/0036-calculate-accuracy-score) |
 | [Calculate Covariance Matrix](https://www.deep-ml.com/problems/10) | easy | 2026-11-18 | [solution](problems/0010-calculate-covariance-matrix) |
 | [Calculate Mean by Row or Column](https://www.deep-ml.com/problems/4) | easy | 2026-11-17 | [solution](problems/0004-calculate-mean-by-row-or-column) |
+| [Conv2d Output Shape](https://www.deep-ml.com/problems/1232) | easy | 2026-11-27 | [solution](problems/1232-conv2d-output-shape) |
 | [Convert Vector to Diagonal Matrix](https://www.deep-ml.com/problems/35) | easy | 2026-11-24 | [solution](problems/0035-convert-vector-to-diagonal-matrix) |
 | [Dot Product Calculator](https://www.deep-ml.com/problems/83) | easy | 2026-11-17 | [solution](problems/0083-dot-product-calculator) |
 | [Feature Scaling Implementation](https://www.deep-ml.com/problems/16) | easy | 2026-11-19 | [solution](problems/0016-feature-scaling-implementation) |

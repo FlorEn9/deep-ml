@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**27** solved · 27 problems · 0 labs · 0 math
+**28** solved · 27 problems · 0 labs · 1 math
 
 ![Coverage](./coverage.svg)
 
@@ -39,6 +39,12 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Matrix Transformation ](https://www.deep-ml.com/problems/7) | medium | 2026-11-18 | [solution](problems/0007-matrix-transformation) |
 | [Decision Tree Learning](https://www.deep-ml.com/problems/20) | hard | 2026-11-26 | [solution](problems/0020-decision-tree-learning) |
 | [Determinant of a 4x4 Matrix using Laplace's Expansion (hard)](https://www.deep-ml.com/problems/13) | hard | 2026-11-17 | [solution](problems/0013-determinant-of-a-4x4-matrix-using-laplace-s-expansion-hard) |
+
+## Math
+
+| | Difficulty | Solved | |
+| --- | --- | --- | --- |
+| [Matrix Multiplication](https://www.deep-ml.com/math-problems/10) | medium | 2026-11-27 | [solution](math/0010-matrix-multiplication) |
 
 ---
 
